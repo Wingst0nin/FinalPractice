@@ -10,9 +10,10 @@ gravity_scale = 2.66454e-15
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(336, 165)
-scale = Vector2(0.84, 0.815)
+scale = Vector2(0.5, 0.485)
 texture = ExtResource("1_fv8dk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(360, 163)
+position = Vector2(337, 164)
+scale = Vector2(0.5, 0.5)
 shape = SubResource("CircleShape2D_vkkfj")
